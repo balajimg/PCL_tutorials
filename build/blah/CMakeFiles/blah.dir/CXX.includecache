@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../blah/include/Blah.h
+iostream
+-
+
+/home/balajimg/projects/PCL_tutorials/blah/src/Blah.cpp
+Blah.h
+/home/balajimg/projects/PCL_tutorials/blah/src/Blah.h
+iostream
+-
+
